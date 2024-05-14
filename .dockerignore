@@ -1,0 +1,173 @@
+# flyctl launch added from .gitignore
+
+###> symfony/framework-bundle ###
+.env.local
+.env.local.php
+.env.*.local
+config\secrets\prod\prod.decrypt.private.php
+public\bundles
+var
+vendor
+###< symfony/framework-bundle ###
+
+# flyctl launch added from .idea\.gitignore
+# Default ignored files
+.idea\shelf
+.idea\workspace.xml
+# Editor-based HTTP Client requests
+.idea\httpRequests
+# Datasource local storage ignored files
+.idea\dataSources
+.idea\dataSources.local.xml
+
+# flyctl launch added from vendor\psr\container\.gitignore
+vendor\psr\container\**\composer.lock
+vendor\psr\container\**\composer.phar
+vendor\psr\container\vendor
+
+# flyctl launch added from vendor\psr\event-dispatcher\.gitignore
+vendor\psr\event-dispatcher\vendor
+vendor\psr\event-dispatcher\**\composer.lock
+
+# flyctl launch added from vendor\psr\log\.gitignore
+vendor\psr\log\**\vendor
+
+# flyctl launch added from vendor\symfony\cache\.gitignore
+vendor\symfony\cache\**\composer.lock
+vendor\symfony\cache\**\phpunit.xml
+vendor\symfony\cache\**\vendor
+
+# flyctl launch added from vendor\symfony\cache-contracts\.gitignore
+vendor\symfony\cache-contracts\**\vendor
+vendor\symfony\cache-contracts\**\composer.lock
+vendor\symfony\cache-contracts\**\phpunit.xml
+
+# flyctl launch added from vendor\symfony\config\.gitignore
+vendor\symfony\config\**\vendor
+vendor\symfony\config\**\composer.lock
+vendor\symfony\config\**\phpunit.xml
+
+# flyctl launch added from vendor\symfony\console\.gitignore
+vendor\symfony\console\**\vendor
+vendor\symfony\console\**\composer.lock
+vendor\symfony\console\**\phpunit.xml
+
+# flyctl launch added from vendor\symfony\dependency-injection\.gitignore
+vendor\symfony\dependency-injection\**\vendor
+vendor\symfony\dependency-injection\**\composer.lock
+vendor\symfony\dependency-injection\**\phpunit.xml
+
+# flyctl launch added from vendor\symfony\deprecation-contracts\.gitignore
+vendor\symfony\deprecation-contracts\**\vendor
+vendor\symfony\deprecation-contracts\**\composer.lock
+vendor\symfony\deprecation-contracts\**\phpunit.xml
+
+# flyctl launch added from vendor\symfony\dotenv\.gitignore
+vendor\symfony\dotenv\**\vendor
+vendor\symfony\dotenv\**\composer.lock
+vendor\symfony\dotenv\**\phpunit.xml
+
+# flyctl launch added from vendor\symfony\error-handler\.gitignore
+vendor\symfony\error-handler\**\vendor
+vendor\symfony\error-handler\**\composer.lock
+vendor\symfony\error-handler\**\phpunit.xml
+
+# flyctl launch added from vendor\symfony\event-dispatcher\.gitignore
+vendor\symfony\event-dispatcher\**\vendor
+vendor\symfony\event-dispatcher\**\composer.lock
+vendor\symfony\event-dispatcher\**\phpunit.xml
+
+# flyctl launch added from vendor\symfony\event-dispatcher-contracts\.gitignore
+vendor\symfony\event-dispatcher-contracts\**\vendor
+vendor\symfony\event-dispatcher-contracts\**\composer.lock
+vendor\symfony\event-dispatcher-contracts\**\phpunit.xml
+
+# flyctl launch added from vendor\symfony\filesystem\.gitignore
+vendor\symfony\filesystem\**\vendor
+vendor\symfony\filesystem\**\composer.lock
+vendor\symfony\filesystem\**\phpunit.xml
+
+# flyctl launch added from vendor\symfony\finder\.gitignore
+vendor\symfony\finder\**\vendor
+vendor\symfony\finder\**\composer.lock
+vendor\symfony\finder\**\phpunit.xml
+
+# flyctl launch added from vendor\symfony\finder\Tests\Fixtures\gitignore\.gitignore
+vendor\symfony\finder\Tests\Fixtures\gitignore\**\c.txt
+
+# flyctl launch added from vendor\symfony\finder\Tests\Fixtures\gitignore\git_root\search_root\.gitignore
+vendor\symfony\finder\Tests\Fixtures\gitignore\git_root\search_root\a.txt
+
+# flyctl launch added from vendor\symfony\finder\Tests\Fixtures\gitignore\git_root\search_root\dir\.gitignore
+vendor\symfony\finder\Tests\Fixtures\gitignore\git_root\search_root\dir\b.txt
+
+# flyctl launch added from vendor\symfony\finder\Tests\Fixtures\gitignore\search_root\.gitignore
+vendor\symfony\finder\Tests\Fixtures\gitignore\search_root\a.txt
+
+# flyctl launch added from vendor\symfony\finder\Tests\Fixtures\gitignore\search_root\dir\.gitignore
+vendor\symfony\finder\Tests\Fixtures\gitignore\search_root\dir\b.txt
+
+# flyctl launch added from vendor\symfony\flex\.gitignore
+vendor\symfony\flex\vendor
+vendor\symfony\flex\build
+vendor\symfony\flex\**\.phpunit.result.cache
+vendor\symfony\flex\**\.php_cs.cache
+vendor\symfony\flex\**\composer.lock
+
+# flyctl launch added from vendor\symfony\framework-bundle\.gitignore
+vendor\symfony\framework-bundle\**\vendor
+vendor\symfony\framework-bundle\**\composer.lock
+vendor\symfony\framework-bundle\**\phpunit.xml
+
+# flyctl launch added from vendor\symfony\http-foundation\.gitignore
+vendor\symfony\http-foundation\**\vendor
+vendor\symfony\http-foundation\**\composer.lock
+vendor\symfony\http-foundation\**\phpunit.xml
+
+# flyctl launch added from vendor\symfony\http-kernel\.gitignore
+vendor\symfony\http-kernel\**\vendor
+vendor\symfony\http-kernel\**\composer.lock
+vendor\symfony\http-kernel\**\phpunit.xml
+vendor\symfony\http-kernel\**\Tests\Fixtures\cache
+vendor\symfony\http-kernel\**\Tests\Fixtures\logs
+
+# flyctl launch added from vendor\symfony\process\.gitignore
+vendor\symfony\process\**\vendor
+vendor\symfony\process\**\composer.lock
+vendor\symfony\process\**\phpunit.xml
+
+# flyctl launch added from vendor\symfony\routing\.gitignore
+vendor\symfony\routing\**\vendor
+vendor\symfony\routing\**\composer.lock
+vendor\symfony\routing\**\phpunit.xml
+
+# flyctl launch added from vendor\symfony\runtime\.gitignore
+vendor\symfony\runtime\**\vendor
+vendor\symfony\runtime\**\composer.lock
+vendor\symfony\runtime\**\phpunit.xml
+
+# flyctl launch added from vendor\symfony\service-contracts\.gitignore
+vendor\symfony\service-contracts\**\vendor
+vendor\symfony\service-contracts\**\composer.lock
+vendor\symfony\service-contracts\**\phpunit.xml
+
+# flyctl launch added from vendor\symfony\string\.gitignore
+vendor\symfony\string\**\composer.lock
+vendor\symfony\string\**\phpunit.xml
+vendor\symfony\string\**\vendor
+
+# flyctl launch added from vendor\symfony\var-dumper\.gitignore
+vendor\symfony\var-dumper\**\composer.lock
+vendor\symfony\var-dumper\**\phpunit.xml
+vendor\symfony\var-dumper\**\vendor
+
+# flyctl launch added from vendor\symfony\var-exporter\.gitignore
+vendor\symfony\var-exporter\**\composer.lock
+vendor\symfony\var-exporter\**\phpunit.xml
+vendor\symfony\var-exporter\**\vendor
+
+# flyctl launch added from vendor\symfony\yaml\.gitignore
+vendor\symfony\yaml\**\vendor
+vendor\symfony\yaml\**\composer.lock
+vendor\symfony\yaml\**\phpunit.xml
+fly.toml

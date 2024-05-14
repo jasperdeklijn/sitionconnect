@@ -22,7 +22,7 @@ RUN apt-get update && \
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
 
 # Clone your Symfony project from your Git repository
-RUN git clone https://github.com/yourusername/your-symfony-project.git .
+RUN git clone https://github.com/jasperdeklijn/sitionconnect.git .
 
 # Install Symfony dependencies
 RUN composer install --no-scripts
